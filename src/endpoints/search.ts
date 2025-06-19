@@ -101,7 +101,7 @@ export const searchEndpoint = new Elysia().get(
 		},
 		detail: {
 			summary: "Search for clients",
-			description: "Search for clients by name, contact email, revenue, or start date",
+			description: "Search for clients by name or contact email and ordered by any field",
 			tags: ["Clients"],
 		},
 	},
